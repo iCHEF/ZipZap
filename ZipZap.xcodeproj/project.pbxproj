@@ -387,7 +387,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2757532D16AEE58D00388503 /* Public */ = {
+		17A8E11626E74F6900544F53 /* Public */ = {
 			isa = PBXGroup;
 			children = (
 				D8B0FD611640A6B000727A70 /* ZipZap.h */,
@@ -396,10 +396,10 @@
 				5B50392518706368002B2B12 /* ZZConstants.h */,
 				D8366ACC16B1F8B400BC012E /* ZZError.h */,
 			);
-			name = Public;
+			path = Public;
 			sourceTree = "<group>";
 		};
-		2757532E16AEE59F00388503 /* Private */ = {
+		17A8E11826E74F8500544F53 /* Private */ = {
 			isa = PBXGroup;
 			children = (
 				D8ABBF3C18883528002858BE /* ZZAESDecryptInputStream.h */,
@@ -441,7 +441,7 @@
 				D899CFE0162C608300112F49 /* ZZStoreOutputStream.h */,
 				D899CFE1162C608300112F49 /* ZZStoreOutputStream.m */,
 			);
-			name = Private;
+			path = Private;
 			sourceTree = "<group>";
 		};
 		5BC58CA318745940002FAE04 /* assets */ = {
@@ -516,8 +516,8 @@
 		D899CF8B162C5EC100112F49 /* ZipZap */ = {
 			isa = PBXGroup;
 			children = (
-				2757532D16AEE58D00388503 /* Public */,
-				2757532E16AEE59F00388503 /* Private */,
+				17A8E11826E74F8500544F53 /* Private */,
+				17A8E11626E74F6900544F53 /* Public */,
 				D87BA1FA1B3D6DEA00ED7EB3 /* Supporting Files */,
 			);
 			path = ZipZap;
@@ -775,6 +775,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D899CF75162C5E8400112F49;
